@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="output.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="text-blue-400">
+<body class="text-blue-400 font-body bg-slate-100">
 
 
     <div> <!--content-wrapper-->
         <div>
             <nav class="">
                 <div class="">
-                    <h1 class="uppercase font-bold p-8 ">SusuKita</h1>
+                    <h1 class="uppercase font-bold p-8 md:text-3xl">SusuKita</h1>
                 </div>
                 <div>
                     <ul class="m-7">
@@ -38,40 +38,46 @@
             </nav>
         </div>
         <main class="ml-9">
-            <div class="">
-            <a href="">Log-in</a>
-            <a href="">Sign-up</a>
+            <div class="flex justify-end p-5 -mt-52">
+            <a class="text-blue-300 hover:text-blue-500 cursor-pointer">Log-in</a>
+            <a class=" text-blue-300 ml-2 hover:text-blue-500" href="">Sign-up</a>
             </div>    
 
-        <header class="my-2">
-            <h2 class="text-blue-500 text-3xl font-bold">SusuKita</h2>
-            <h3 class="text-xl font-semibold">A Great Milk For Our Body</h3>
+        <header class="mt-56">
+            <h2 class="text-blue-500 text-3xl md:text-6xl font-bold">SusuKita</h2>
+            <h3 class="md:text-xl  font-semibold">A Great Milk For Our Body</h3>
         </header>
 
         
         <div>
-            <h4 class="font-semibold mt-3 border-b border-blue-400">Variants Of Flavors</h4>
+            <h4 class="font-semibold mt-9 border-b border-blue-400 font-mono ">Variants Of Flavors</h4>
             <div>
                 <!--Cards go here-->
-                <div>
-                     <img src="img/download (1).jpg" alt="">
-                     <div>
-                        <span class="text-primary">Vanilla</span>
-                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nemo totam id, </span>
+                <div class="card">
+                     <img class="mt-5  object-cover" src="img/download (1).jpg" alt="">
+                     <div class="m-4">
+                        <span class="text-blue-400 text-xl font-bold">Vanilla</span>
+                        <span class="block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nemo totam id, </span>
+                        <div class="badge">
+                        <span>Rp. 5.000</span>
+                        </div>
                      </div>   
                 </div>
             </div>
             <h4 class="font-semibold mt-3 border-b border-blue-400 ">Most Popular FLavors</h4>
             <div>
-                <div>
+                <div class="card">
                     <img src="img/download.jpg" alt="">
-                    <div>
-                        <span>Strawberry</span>
-                        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur at officiis eius blanditiis </span>
+                    <div class="m-4">
+                        <span class="text-red-400 text-xl font-bold">Strawberry</span>
+                        <span class="block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur at officiis eius blanditiis </span>
+                        <div class="badge ml-1">
+                        <span>Rp. 7.500</span>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div class="bg-secondary-100">Load More</div>
+                    <div class="bg-secondary -100">Load More</div>
                 </div>
             </div>
          </div>  

@@ -9,6 +9,9 @@ module.exports = {
           100: '#0A75BC',
           200: '#0969A9'
         }
+      },
+      fontFamily:{
+        body:['Anek Devanagari']
       }
     },
   },
