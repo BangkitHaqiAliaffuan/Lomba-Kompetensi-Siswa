@@ -10,8 +10,8 @@
 <body class="text-blue-400 font-body bg-slate-100">
 
 
-    <div> <!--content-wrapper-->
-        <div>
+    <div class="grid md:grid-cols-3"> <!--content-wrapper-->
+        <div class="md:col-span-1">
             <nav class="">
                 <div class="">
                     <h1 class="uppercase font-bold p-8 md:text-3xl">SusuKita</h1>
@@ -37,13 +37,13 @@
                 </div>
             </nav>
         </div>
-        <main class="ml-9">
-            <div class="flex justify-end p-5 -mt-52">
+        <main class=" md:col-span-2">
+            <div class="flex justify-end p-5 ">
             <a class="text-blue-300 hover:text-blue-500 cursor-pointer">Log-in</a>
             <a class=" text-blue-300 ml-2 hover:text-blue-500" href="">Sign-up</a>
             </div>    
 
-        <header class="mt-56">
+        <header class="">
             <h2 class="text-blue-500 text-3xl md:text-6xl font-bold">SusuKita</h2>
             <h3 class="md:text-xl  font-semibold">A Great Milk For Our Body</h3>
         </header>
@@ -51,11 +51,11 @@
         
         <div>
             <h4 class="font-semibold mt-9 border-b border-blue-400 font-mono ">Variants Of Flavors</h4>
-            <div>
+            <div class=" grid lg:grid-cols-3">
                 <!--Cards go here-->
-                <div class="card">
+                <div class="card shadow-xl">
                      <img class="mt-5  object-cover" src="img/download (1).jpg" alt="">
-                     <div class="m-4">
+                     <div class="m-4 mt-0">
                         <span class="text-blue-400 text-xl font-bold">Vanilla</span>
                         <span class="block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nemo totam id, </span>
                         <div class="badge">
@@ -63,10 +63,8 @@
                         </div>
                      </div>   
                 </div>
-            </div>
-            <h4 class="font-semibold mt-3 border-b border-blue-400 ">Most Popular FLavors</h4>
-            <div>
-                <div class="card">
+            
+                <div class="card shadow-xl">
                     <img src="img/download.jpg" alt="">
                     <div class="m-4">
                         <span class="text-red-400 text-xl font-bold">Strawberry</span>
@@ -76,6 +74,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="card shadow-xl">
+                    <img class="w-40 mt-14" src="img/coklat.jpg" alt="">
+                    <div class="m-4">
+                        <span class="text-amber-800 text-xl font-bold">Chocolate</span>
+                        <span class="block">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur at officiis eius blanditiis </span>
+                        <div class="badge ml-1">
+                        <span>Rp. 6.500</span>
+                        </div>
+                    </div>
+            </div>
                 <div>
                     <div class="bg-secondary -100">Load More</div>
                 </div>
