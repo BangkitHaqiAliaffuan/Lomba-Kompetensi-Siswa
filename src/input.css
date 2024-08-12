@@ -12,3 +12,14 @@
     @apply border border-blue-500 text-blue-600 rounded absolute top-0 mt-3 p-2 text-sm
 }
 
+.btn{
+    @apply rounded-full  bg-blue-400 text-white px-3 py-4 cursor-pointer hover:bg-white tracking-wider hover:text-blue-500
+}
+
+.btnwhite{
+    @apply text-gray-500 bg-white px-3 py-4 rounded-full hover:bg-blue-600 hover:text-white cursor-pointer tracking-wider
+}
+
+.link-nav{
+    @apply hover:text-blue-600 hover:w-36 hover:text-lg  hover:inline-flex
+}
