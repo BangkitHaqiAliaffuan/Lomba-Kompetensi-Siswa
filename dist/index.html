@@ -13,11 +13,17 @@
     <div class="grid md:grid-cols-3"> <!--content-wrapper-->
         <div class="md:col-span-1 bg-white">
             <nav class="">
-                <div class="">
+                <div class="flex justify-between">
                     <h1 class="uppercase font-bold p-8 md:text-3xl">SusuKita</h1>
+                
+                <div class="md:hidden cursor-pointer mt-6 mr-6" id="burger">
+                <svg class="w-7" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                  </svg>
                 </div>
+            </div>
                 <div>
-                    <ul class="m-7">
+                    <ul class="m-7 hidden  md:inline-block" id="menu">
                         <li class="link-nav p-3 w-4 flex">
                             <a class="flex" href="#">
                                 <svg class="w-7" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -46,15 +52,15 @@
                 </div>
             </nav>
         </div>
-        <main class=" ml-4   md:col-span-2">
+        <main class="ml-4 md:col-span-2">
             <div class="flex justify-center md:justify-end p-5  mt-5">
-            <a class="btnwhite">Log-in</a>
-            <a class="btn ml-3 " href="">Sign-up</a>
+            <a class="btnwhite transition ease-out duration-500">Log-in</a>
+            <a class="btn ml-3 transition ease-out duration-500" href="">Sign-up</a>
             </div>    
 
         <header class="">
             <h2 class="text-blue-500 text-3xl md:text-6xl font-bold">Susu <div class="inline text-white">Kita</div></h2>
-            <h3 class="md:text-xl  font-semibold">A Great Milk For Our Body</h3>
+            <h3 class="md:text-xl font-semibold">A Great Milk For Our Body</h3>
         </header>
 
         
@@ -94,11 +100,12 @@
                     </div>
             </div>
                 <div>
-                    <div class="btn mt-3 text-center">Load More</div>
+                    <div class="btn mr-4 pt-5 mt-3 text-center transition ease-out duration-500">Load More</div>
                 </div>
             </div>
          </div>  
         </main>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>

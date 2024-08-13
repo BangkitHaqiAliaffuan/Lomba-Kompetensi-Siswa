@@ -17,9 +17,9 @@
 }
 
 .btnwhite{
-    @apply text-gray-500 bg-white px-3 py-4 rounded-full hover:bg-blue-600 hover:text-white cursor-pointer tracking-wider
+    @apply text-blue-400 bg-white px-3 py-4 rounded-full hover:bg-blue-600 hover:text-white cursor-pointer tracking-wider
 }
 
 .link-nav{
-    @apply hover:text-blue-600 hover:w-36 hover:text-lg  hover:inline-flex
+    @apply hover:text-blue-600 hover:w-36 hover:text-lg  hover:inline-flex hover:transition ease-in duration-500
 }
